@@ -20,8 +20,9 @@ export default function WaitlistForm() {
     });
   };
 
+  console.log(joinWaitlist);
   return (
-    <form>
+    <form onSubmit={joinWaitlist}>
       {/* <label htmlFor="email-input">Enter your email</label> */}
       <input
         className={styles.emailInput}

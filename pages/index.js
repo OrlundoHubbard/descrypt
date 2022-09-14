@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 import WaitlistForm from "../components/WaitlistForm";
-import Subscribe from "../components/Subscribe";
+// import Subscribe from "../components/Subscribe";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
           <br /> Customers Attention
         </h1>
         <WaitlistForm />
-        <Subscribe />
+        {/* <Subscribe /> */}
       </div>
     </>
   );
